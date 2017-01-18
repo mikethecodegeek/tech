@@ -1,592 +1,549 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Michael Sanford - Javascript Developer</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<!-- SITE TITLE -->
+	<title>Michael Sanford</title>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- FAV ICONS and WEBFONT -->
+	<!-- <link rel="icon" href="images/favicons/favicon.ico"> -->
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/ favicon-72.png">
+	<link rel="apple-touch-icon-precomposed" href="images/favicons/favicon-57.png">
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,600|Poppins:400,500,700' rel='stylesheet' type='text/css'>
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- ICON FONT -->
+	<link rel="stylesheet" href="assets/icons/styles.css">
+	<!-- in your header -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<!-- Third Party CSS including Bootstrap -->
+	<link rel="stylesheet" href="css/third-party.css">
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#resume">Skills</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-             <li><a target="_blank" href="http://medium.com/@mikethecodegeek">My Blog</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Michael Sanford.</h1>
-            <h3>I love building cool things! I am a <span>Full Stack</span>, <span>Javascript Developer.</span><a class="smoothscroll" href="#about"><p>Start scrolling to</a>
-            learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://twitter.com/Mikethecodegeek"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/michael-sanford-1180b3115"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/mikethecodegeek"><i class="fa fa-github"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-     <div class="row">
-
-       <div class="twelve columns collapsed">
-
-         <h1>Check Out Some of My Works.</h1>
-
-         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-               <a href="#modal-06" title="">
-                 <img class='thumb' alt="" src="images/technation800.jpg">
-                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                     <h5>TechNation - Fully Custom CMS</h5>
-                     <p>Angular, Node, Mongo, Express</p>
-                   </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-             </div>
-           </div> <!-- item end -->
-         <!-- portfolio-wrapper -->
-         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-               <a href="#modal-05" title="">
-                 <img class='thumb' alt="" src="images/fac2.png">
-                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                     <h5>Facial Recognition Music Player</h5>
-                     <p>Full Stack, Demo</p>
-                   </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-             </div>
-           </div> <!-- item end -->
-
-           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-               <a href="#modal-01" title="">
-                 <img class='thumb' alt="" src="images/batman.png">
-                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                     <h5>Batman Tic-Tac-Toe</h5>
-                     <p>Vanilla Javascript</p>
-                   </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-             </div>
-           </div> <!-- item end -->
-
-           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-               <a href="#modal-02" title="">
-                 <img class='thumb' alt="" src="images/sud1.jpg">
-                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                     <h5>Sudoku Solver</h5>
-                     <p>Algorithms, Recursion</p>
-                   </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-             </div>
-           </div> <!-- item end -->
-
-           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-               <a href="#modal-03" title="">
-                 <img class='thumb' alt="" src="images/BlackJack.jpg">
-                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                     <h5>Black Jack</h5>
-                     <p>Game logic</p>
-                   </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-             </div>
-           </div> <!-- item end -->
-
-         </div> <!-- portfolio-wrapper end -->
-
-       </div> <!-- twelve columns end -->
-
-
-       <!-- Modal Popup
-       --------------------------------------------------------------- -->
-
-       <div id="modal-01" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/bvsj.jpg" alt="" />
-
-         <div class="description-box">
-           <h4>Batman Tic-Tac-Toe</h4>
-           <p>Play against the computer in this unbeatable tic-tac-toe game.</p>
-           <span class="categories"><i class="fa fa-tag"></i>Front end, Javascript, Games</span>
-         </div>
-
-         <div class="link-box">
-           <a target="_blank" href="http://mikethecodegeek.github.io/tic-tac-toe-reboot/">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-01 End -->
-
-       <div id="modal-02" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/sud2.png" alt="" />
-
-         <div class="description-box">
-           <h4>Sudoku Solver</h4>
-           <p>Solve puzzles or generate new ones with this app</p>
-           <span class="categories"><i class="fa fa-tag"></i>Algorithms, Puzzles, Recursion</span>
-         </div>
-
-         <div class="link-box">
-           <a target="_blank" href="http://mikethecodegeek.github.io/sudoku/">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-02 End -->
-
-       <div id="modal-03" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/Blackjack-cc.jpg" alt="" />
-
-         <div class="description-box">
-           <h4>BlackJack</h4>
-           <p>Test your wits at the table with this casino style blackjack game.</p>
-           <span class="categories"><i class="fa fa-tag"></i>Game Logic, Object Oriented Programming</span>
-         </div>
-
-         <div class="link-box">
-           <a target="_blank" href="http://mikethecodegeek.github.io/blackjack/">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-03 End -->
-
-       <div id="modal-04" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/fcd.jpg" alt="" />
-
-         <div class="description-box">
-           <h4>2 Player Poker</h4>
-           <p>Play 5 Card Draw against a remote player!</p>
-           <span class="categories"><i class="fa fa-tag"></i>Game Logic, Socket IO, NodeJS</span>
-         </div>
-
-         <div class="link-box">
-           <a target="_blank" href="https://powerful-mountain-54290.herokuapp.com/">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-04 End -->
-
-       <div id="modal-05" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/rec1.png" alt="" />
-
-         <div class="description-box">
-           <h4>Facial Recognition Music Player</h4>
-           <p>This app uses facial recognition technology to help you pick music!</p>
-           <span class="categories"><i class="fa fa-tag"></i>NodeJS, Spotify API, Oxford Emotion API</span>
-         </div>
-
-         <div class="link-box">
-           <a target='_blank' href="http://www.projectjanus.tech">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-05 End -->
-
-       <div id="modal-06" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/technation.jpg" alt="" />
-
-         <div class="description-box">
-           <h4>TechnNation</h4>
-           <p>This was built for a client who needed a professional, fully customizable CMS for his business. I was responsible for writing a RESTFUL API as well as writing the entire dashboard from scratch.</p>
-           <span class="categories"><i class="fa fa-tag"></i>NodeJS, Angular, Express, MongoDB, CMS</span>
-         </div>
-
-         <div class="link-box">
-           <a target='_blank' href="http://www.technation.top">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-         </div>
-
-       </div><!-- modal-05 End -->
-
-
-     </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>Here is a brief overview of my current skillset:
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-                        <li><span class="bar-expand angular"></span><em>MongoDB</em></li>
-                        <li><span class="bar-expand mongo"></span><em>Angular</em></li>
-                       <li><span class="bar-expand node"></span><em>NodeJS</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-     <div class="row">
-
-       <div class="three columns">
-
-         <img class="profile-pic"  src="images/pic.jpg" alt="" />
-
-       </div>
-
-       <div class="nine columns main-col">
-
-         <h2>About Me</h2>
-
-         <p> Ever wanted to have linux running on your toaster? I have. I love puzzles, I love games and I really love combining the two. Coding gives me the ability to create something out of nothing.
-         </p>
-
-         <div class="row">
-
-           <div class="columns contact-details">
-
-             <h2>Contact Details</h2>
-             <p class="address">
-               <span>Michael Sanford</span><br>
-               <span>(508) 292-1799</span><br>
-             </p>
-
-           </div>
-
-           <div class="columns download">
-             <p>
-               <a target="_blank" href="../MikeSanfordResume.pdf" class="button"><i class="fa"></i>View My Resume</a>
-             </p>
-           </div>
-
-         </div> <!-- end row -->
-
-       </div> <!-- end .main-col -->
-
-     </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
-
-      <div class="row">
-
-
-         <div class="seven columns">
-
-            <h2><a class="smoothscroll" href="#contact">I am available for hire!</a></h2>
-
-         </div>
-
-         <div class="three columns action">
-
-            <a href="#contact" class="smoothscroll button">Contact Me</a>
-
-         </div>
-
-      </div>
-
-   </section> <!-- Call-To-Action Section End-->
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-
-            <div class="ten columns">
-
-                  <p class="lead">Please reach out to me if you are interested in working together. I would also like to hear questions, comments or concerns regarding this website or any of my projects.
-                  </p>
-
-            </div>
-
-         </div>
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="http://formspree.io/mikethecodegeek@gmail.com" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <input type="submit" class="submit"></input>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-
-
-				   </div>
-
-         <!--      <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div> -->
-
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://twitter.com/Mikethecodegeek"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/michael-sanford-1180b3115"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/mikethecodegeek"><i class="fa fa-github"></i></a></li>
-            </ul>
-
-        <!--    <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-            </ul>
--->
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+	<!-- =========================
+     PRE LOADER
+	============================== -->
+	<div class="preloader">
+  	<div class="status">
+			<div class="loader">
+				<svg class="circular" viewbox="25 25 50 50">
+					<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+				</svg>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- =========================
+     SECTION: HOME / HOMEPAGE
+    ============================== -->
+	<section class="home fixed-bg" id="home">
+
+		<div class="color-overlay">
+			<!-- COLOR OVERLAY -->
+
+			<!-- NAVIGATION -->
+			<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+
+						<!-- NAVBAR EXPAND COLLAPSE ON MOBILE -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#alexis-navigation">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon icon-menu"></span>
+						</button>
+
+						<!-- LOGO -->
+						<a class="navbar-brand" href="#">
+							<!-- <img src="images/logo.png" alt="LOGO"> -->
+							Michael Sanford
+						</a>
+
+					</div>
+
+					<div class="navbar-collapse collapse" id="alexis-navigation">
+						<!-- NAVIGATION LINK -->
+						<ul class="nav navbar-nav navbar-right main-navigation" id="internal-scroll">
+							<li><a href="#home">Home</a>
+							</li>
+							<li><a href="#section1">About Me</a>
+							</li>
+							<li><a href="#section3">Portfolio</a>
+							</li>
+							<li><a href="#section9">Skills</a>
+							</li>
+							<li><a href="#section10">Contact</a>
+							</li>
+							<!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
+						</ul>
+					</div>
+
+				</div>
+				<!-- /END CONTAINER -->
+			</div>
+			<!-- /END NAIVATION -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1 col-md-12">
+
+						<!-- INTRO HEADING -->
+						<h1 class="intro white-text text-center">Hello, I'm Michael Sanford</h1>
+
+						<!-- CALL TO ACTION -->
+						<div class="cta smooth-scroll">
+							<a href="#section3" class="btn btn-default standard-button red-button">My Works</a>
+							<a href="http://www.michaelsanford.tech/MikeSanfordResume.pdf" class="btn btn-default standard-button green-button">View Resume</a>
+							<br>
+							<div class="head-icons" style="color:white">
+								<a href="https://www.linkedin.com/in/michael-sanford-1180b3115"><span class="icon icon-linkedin-alt white2"></span></a>
+								<a href="https://twitter.com/Mikethecodegeek"><span class="icon icon-social-twitter white2"></span></a>
+								<a href="https://github.com/mikethecodegeek"><span class="icon icon-github-alt white2"></span></a>
+								<!-- <a href=""><span class="icon icon-sb-google-plus"></span></a> -->
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<!-- =========================
+     SECTION: ABOUT US
+    ============================== -->
+	<section class="about-us" id="section1">
+
+		<div class="container">
+			<div class="row">
+
+				<!-- FEATURED IMAGE AREA -->
+				<div class="col-lg-6 visible-lg">
+					<div class="featured-image red-gradient-overlay">
+						<img src="images/mypic.jpg" alt="">
+						<!-- ABOUT US FEATURED IMAGE -->
+						<div class="image-border">
+						</div>
+					</div>
+				</div>
+
+				<!-- ABOUT US BOX -->
+				<div class="col-lg-7 col-sm-12 overflow-box pull-right">
+					<div class="about-box diffuse-shadow wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+						<div class="about-content">
+
+							<!-- SECTION NUMBER -->
+							<div class="section-number">
+								<!-- 01 -->
+							</div>
+
+							<!-- SECTION HEADING -->
+							<h2 class="section-heading text-left">About Me</h2>
+
+							<!-- PARAGRAPH -->
+							<p class="text-left">
+								Hello, My name is Michael Sanford. Welcome to my page.
+								<br/>
+								<br/> Here's the part where I'm supposed to impress the heck out of you by talking about all my satisfied clients or all my great
+								accomplishments. Instead, I would like to take this opportunity to share with you some of my personal values and what you can expect when you work with me.
+								<br/>
+								<br/><b>People come first: </b><i>“Our prime purpose in this life is to help others. And if you can't help them, at least don't hurt them.”
+― Dalai Lama XIV </i>
+								<br/> At the end of the day if my client is not happy than I'm not happy. This is why I put 110% into every job I do. It all starts with strong communication right from the beginning.
+								How can I meet your requirements if I don't know exactly what they are? This means starting by asking all the right questions and making sure we are both on the same page right from day 1.
+								<br/>
+								<br/><b>Honesty: </b><i>“Conscience is a man's compass." - Vincent Van Gogh</i>
+								<br/>	If I could sum up how I live my life in 5 words these would be them. The most important thing to me is making sure I do the right thing. If for some reason I'm not the right person for
+								the job I'm going to let you know. I know my strengths and weaknesses very well and I would much rather make sure your needs are taken care of than take a job that I can't over-deliver on.
+								<br/>
+								<br/><b>Never stop learning: </b><i>“Wonder is the beginning of wisdom.” - Socrates</i>
+								<br/> One of my true joys in life is learning. I truly believe that a day that goes by that I don't learn something is wasted day. I may not have all the answers but I know how to find them
+								and I know just how awesome it is to solve a problem I've never encountered.
+							</p>
+						</div>
+
+						<div class="four-lines">
+							<div class="line red-line-bottom">
+							</div>
+							<div class="line green-line-bottom">
+							</div>
+							<div class="line purple-line-bottom">
+							</div>
+							<div class="line yellow-line-bottom">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- =========================
+     SECTION: PORTFOLIO
+    ============================== -->
+	<section class="portfolio white-bg" id="section3">
+
+		<div class="container">
+
+			<!-- SECTION NUMBER -->
+			<div class="section-number centered-number">
+				<!-- 03 -->
+			</div>
+
+			<!-- SECTION HEADER -->
+			<div class="section-header">
+				<h2>Portfolio.</h2>
+				<div class="sub-heading">
+					Please check out some of my latest works.
+				</div>
+			</div>
+
+			<div class="row">
+
+				<!-- PROJECT LOADING ICON -->
+				<div id="loader">
+					<div class="loader-icon">
+						<div class="loader">
+							<svg class="circular" viewbox="25 25 50 50">
+								<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<!-- PROJECTS -->
+				<div class="col-lg-12" id="portfolio-list">
+					<div class="portfolio-items grid">
+
+						<!-- SINGLE PROJECT -->
+						<figure class="effect-zoe wow fadeInDown" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+							<!-- PROJECT IMAGE and LINK -->
+							<a href="project2.html" title="Click to view details" class="more"><img src="images/projects/janus.png" alt="">
+								<p class="description">
+									<span class="icon icon-plus"></span>
+								</p>
+							</a>
+
+							<figcaption>
+								<div class="four-lines">
+									<div class="line red-line-bottom">
+									</div>
+									<div class="line green-line-bottom">
+									</div>
+									<div class="line purple-line-bottom">
+									</div>
+									<div class="line yellow-line-bottom">
+									</div>
+								</div>
+
+								<div class="caption-text">
+									<h6 class="dark-text">Janus</h6>	<!-- PROJECT TITLE -->
+								</div>
+
+							</figcaption>
+						</figure>
+
+						<!-- SINGLE PROJECT -->
+						<figure class="effect-zoe wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+							<!-- PROJECT IMAGE and LINK -->
+							<a href="project1.html" title="Click to view details" class="more"><img src="images/projects/tnation.png" alt="">
+								<p class="description">
+									<span class="icon icon-plus"></span>
+								</p>
+							</a>
+
+							<figcaption>
+								<div class="four-lines">
+									<div class="line red-line-bottom">
+									</div>
+									<div class="line green-line-bottom">
+									</div>
+									<div class="line purple-line-bottom">
+									</div>
+									<div class="line yellow-line-bottom">
+									</div>
+								</div>
+
+								<div class="caption-text">
+									<h6 class="dark-text">Technation</h6>	<!-- PROJECT TITLE -->
+								</div>
+
+							</figcaption>
+						</figure>
+
+
+						<!-- SINGLE PROJECT -->
+						<figure class="effect-zoe wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+
+							<!-- PROJECT IMAGE and LINK -->
+							<a href="project3.html" title="Click to view details" class="more"><img src="images/projects/tictactoe.jpg" alt="">
+								<p class="description">
+									<span class="icon icon-plus"></span>
+								</p>
+							</a>
+
+							<figcaption>
+								<div class="four-lines">
+									<div class="line red-line-bottom">
+									</div>
+									<div class="line green-line-bottom">
+									</div>
+									<div class="line purple-line-bottom">
+									</div>
+									<div class="line yellow-line-bottom">
+									</div>
+								</div>
+
+								<div class="caption-text">
+									<h6 class="dark-text">Batman Tic-Tac-Toe</h6>	<!-- PROJECT TITLE -->
+								</div>
+
+							</figcaption>
+						</figure>
+
+
+
+
+
+
+
+					</div>
+				</div>
+
+				<!-- LOADED PROJECT WILL SHOW HERE -->
+				<div id="loaded-content">
+				</div>
+
+				<!-- BACK TO PORTFOLIO BUTTON ON LOADED PROJECT -->
+				<a id="back-button" class="back-button btn btn-default standard-button red-button" href="#"><span class="icon icon-arrow-left"></span> Go Back</a>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+		<!-- =========================
+		     SECTION: VIDEO SECTION
+		    ============================== -->
+
+			<section class="video-play fixed-bg" id="section9">
+				<div class="color-overlay" style="padding-bottom: 30px;">
+
+					<!-- HEADING -->
+					<h3 class="white-text wow fadeInLeft" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">Skills</h3>
+					<div style="font-size:80px; color:#ccc; margin-bottom:80px" class="col-xs-12 col-lg-12">
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<div class="col-xs-12 col-sm-12 text-center">
+								<h5 style="color:white">Front End</h5> <br>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-html5-plain"></i><br>
+									<span class="skill-text">HTML 5</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-jquery-plain"></i><br>
+									<span class="skill-text">jQuery</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-css3-plain"></i><br>
+									<span class="skill-text">CSS 3</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-angularjs-plain"></i><br>
+									<span class="skill-text">Angular JS</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<div class="col-xs-12 col-sm-12 text-center">
+								<h5 style="color:white">Back End</h5> <br>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-mongodb-plain"></i><br>
+									<span class="skill-text">Mongo DB</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-nodejs-plain"></i><br>
+									<span class="skill-text">Node JS</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="skill-row">
+									<i class="devicon-php-plain"></i><br>
+									<span class="skill-text">PHP</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-mysql-plain"></i><br>
+									<span class="skill-text">My SQL</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-lg-4">
+							<div class="col-xs-12 col-sm-12 text-center">
+								<h5 style="color:white">Tools</h5> <br>
+							</div>
+							<div class="col-lg-6 col-lg-offset-0 col-xs-12 col-sm-6 col-md-3 col-md-offset-3 ">
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-github-plain"></i><br>
+									<span class="skill-text">Github</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-less-plain-wordmark"></i><br>
+									<span class="skill-text">Less</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-heroku-original"></i><br>
+									<span class="skill-text">Heroku</span>
+								</div>
+								<div class="col-xs-12 skill-row">
+									<i class="devicon-sass-original"></i><br>
+									<span class="skill-text">Sass</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+							<div>
+								<span class="click-play show" style="font-size:20px; color:white">I'm available for hire!</span>
+							</div>
+						</div>
+					<!-- TEXT -->
+
+				<!-- </div> -->
+			</section>
+	<!-- =========================
+     SECTION: CONTACT US
+    ============================== -->
+	<section class="get-in-touch" id="section10">
+		<div class="container">
+
+			<!-- SECTION NUMBER -->
+			<div class="section-number centered-number">
+				<!-- 10 -->
+			</div>
+
+			<!-- SECTION HEADER -->
+			<div class="section-header">
+				<h2>Get in Touch</h2>
+				<div class="sub-heading">
+					Please reach out to me if you are interested in working together. I would also like to hear questions, comments or concerns regarding this website or any of my projects.
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+
+					<!-- MAIL SUCCESS MESSAGE - ERROR MESSAGE AVAILABLE IN custom.js -->
+					<h6 class="success green-text">Your Message Successfuly Sent</h6>
+					<h6 class="error red-text"></h6>
+
+					<form action="http://formspree.io/mikethecodegeek@gmail.com" method="post" id="contact-form" class="contact-form" name="contactForm">
+						<div class="row col-md-12">
+							<div class-"col-md-12">
+								<div class="col-lg-6 col-md-6">
+									<input type="text" id="contactName" name="contactName" class="input-field" placeholder="Your Name">
+								</div>
+
+								<div class="col-lg-6 col-md-6">
+									<input type="email" id="contactEmail" name="contactEmail" class="input-field" placeholder="Your Email">
+								</div>
+							</div>
+
+							<!-- <div style="width:97%; margin-left:2.2%"> -->
+							<!-- </div> -->
+
+							<!-- <div class="col-lg-6 col-md-6">
+								<input type="text" id="budget" name="budget" class="input-field" placeholder="Project Budget">
+							</div> -->
+
+							<div class="col-md-12">
+								<input type="text" id="contactSubject" name="contactSubject" class="input-field" placeholder="Subject">
+								<textarea name="contactMessage" id="contactMessage" class="input-field" rows="8" placeholder="Your Message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-default standard-button red-button">Send Message</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<div class="row no-gutters">
+				<div class="footer clearfix">
+
+
+
+					<div class="col-lg-12 col-md-12">
+						<div class="footer-col">
+							<h7 class="white-text">"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it." </h7>
+							<h8 style="margin-left:10px;"> 	- Steve Jobs</h8>
+							<!-- <div class="social-icons center-block">
+								<a href=""><span class="icon icon-sb-facebook"></span></a>
+								<a href=""><span class="icon icon-sb-twitter"></span></a>
+								<a href=""><span class="icon icon-sb-instagram"></span></a>
+								<a href=""><span class="icon icon-sb-google-plus"></span></a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="four-lines">
+					<div class="line red-line-bottom">
+					</div>
+					<div class="line green-line-bottom">
+					</div>
+					<div class="line purple-line-bottom">
+					</div>
+					<div class="line yellow-line-bottom">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- =========================
+     JS SCRIPTS
+    ============================== -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/third-party-scripts.js"></script>
+	<script src="js/custom.js"></script>
 
 </body>
 

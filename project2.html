@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- SITE TITLE -->
+	<title>Michael Sanford</title>
+
+	<!-- FAV ICONS and WEBFONT -->
+	<!-- <link rel="icon" href="images/favicons/favicon.ico"> -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/ favicon-72.png"> -->
+	<!-- <link rel="apple-touch-icon-precomposed" href="images/favicons/favicon-57.png"> -->
+
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,600|Poppins:400,500,700' rel='stylesheet' type='text/css'>
+
+	<!-- ICON FONT -->
+	<link rel="stylesheet" href="assets/icons/styles.css">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/third-party.css">
+	<!-- Third Party CSS including Bootstrap -->
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+	<link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+	<script src="headsupgrid/jquery-1.6.2.min.js"></script>
+	<script src="headsupgrid/hugrid.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			pageUnits = 'px';
+			colUnits = 'px';
+			pagewidth = 1140;
+			columns = 12;
+			columnwidth = 67.5;
+			gutterwidth = 30;
+			pagetopmargin = 0;
+			rowheight = 25;
+			gridonload = 'off';
+			makehugrid();
+			setgridonload();
+		});
+	</script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="single-project">
+
+			<!-- START EDITING FROM HERE -->
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="project-image"><img src="images/projects/janus.png" alt=""></div>
+					</div>
+					<div class="col-lg-6 col-md-6 text-left">
+						<h5>Janus</h5>
+						<p>
+						<b>The Project:</b> This is a project we built for a hackathon. Everyone who was on this team is very passionate about music so it was pretty natural for us to make an app that defined our interest. We really wanted to make something that was not only unique but
+						something that could be easily demoed. Hence project Janus was born. Janus uses facial recognition technology to determine a user's mood and then recommends music based off of that data.
+						</p>
+						<p>
+							<b>My role:</b> My role in this project was to work with the Microsoft Oxford Emotion API and the webcam. I started by breaking down exactly what I needed to accomplish. First, I had to take pictures using the web cam; Second, send that data to the API to
+							get a reading; Finally, use the returned data in a way that was meaningful for our project. Being familiar with the WebcamJS library for NodeJS I immediately went to work and was taking pictures with the webcam in no time. My next task proved to be more difficult. <br><br>
+							While I had no problem taking pictures with the web cam, the API would not accept the raw image data that was being saved. After some troubleshooting I concluded that the API needed to point to an image saved in jpeg format. The solution, I saved the image to the local
+							file system and used a PHP script to upload that image to the server. Once the file was on the server I was able to send the URL to the Microsoft API and get a valid reading. Now that I was getting some data back from the API I needed to make it usable. <br><br>
+							Microsoft's Emotion API returns the data in JSON format with 8 different values that measure different emotions. Since our project was recommending music based off a specific mood I needed to quantify that data and return only one emotion rather than 8. I designed
+							an algorithm that would read the data and return a single emotion based off the prominent values.
+						</p>
+						<p>
+							<b>Result:</b> We were very happy with the results of this project. On demo day we brought up one of the judges to try out the app live before the audience.
+						</p>
+						<p>
+							<b>Tech used:</b> PHP, AngularJS, NodeJS, Microsoft Oxford Emotion API, Spotify API
+						</p>
+						<ul class="project-details-list">
+						<li><span class="dark-text">Date: </span> <span class="extra-small-text">June 11, 2016</span></li>
+						<!-- <li><span class="dark-text">Fields: </span> <span class="extra-small-text">Web Design, UI Design</span></li> -->
+						<!-- <li><span class="dark-text">Client: </span> <span class="extra-small-text">John Doe</span></li> -->
+						<li><span class="dark-text">URL: </span><a href="http://www.projectjanus.tech/"><span class="extra-small-text">http://www.projectjanus.tech/</span></a></li>
+					</ul>
+					</div>
+				</div>
+
+		</div>
+
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/scrollReveal.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/third-party-scripts.js"></script>
+	<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

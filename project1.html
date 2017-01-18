@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- SITE TITLE -->
+	<title>Michael Sanford</title>
+
+	<!-- FAV ICONS and WEBFONT -->
+	<!-- <link rel="icon" href="images/favicons/favicon.ico"> -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/ favicon-72.png"> -->
+	<!-- <link rel="apple-touch-icon-precomposed" href="images/favicons/favicon-57.png"> -->
+
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,600|Poppins:400,500,700' rel='stylesheet' type='text/css'>
+
+	<!-- ICON FONT -->
+	<link rel="stylesheet" href="assets/icons/styles.css">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/third-party.css">
+	<!-- Third Party CSS including Bootstrap -->
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+	<link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+	<script src="headsupgrid/jquery-1.6.2.min.js"></script>
+	<script src="headsupgrid/hugrid.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			pageUnits = 'px';
+			colUnits = 'px';
+			pagewidth = 1140;
+			columns = 12;
+			columnwidth = 67.5;
+			gutterwidth = 30;
+			pagetopmargin = 0;
+			rowheight = 25;
+			gridonload = 'off';
+			makehugrid();
+			setgridonload();
+		});
+	</script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="single-project">
+
+			<!-- START EDITING FROM HERE -->
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="project-image"><img src="images/projects/tnation.png" alt=""></div>
+					</div>
+					<div class="col-lg-6 col-md-6 text-left">
+						<h5>TechNation</h5>
+						<p>
+						<b>The Project:</b> This project is a demo we put together for a potential client who wanted to start a business buying used electronics. This site needed to be dynamic and capable of being managed without the help of a full time web developer.
+						</p>
+						<p>
+							<b>My role:</b> For this project I was knee deep in back end code. I was in charge of creating the admin panel.  Due to our client's need to be able to update inventory on a constant basis without needing to have a developer on site
+							my primary concern throughout the project was structuring the data in a way to make this possible. <br><br>
+							I started by making a few mockups and running through how the site needed to function. This allowed me to see in a visual manner the data I was dealing with and how it needed to be organized. I quickly realized that I was going to be
+							accessing data by moving from category to subcategory, or one level to another. This type of relationship led very naturally to a tree structure. I couldn't have a sub-category without a higher level category to attach it to. Now that
+							I knew what kind of data structure I was dealing with it was time to begin coding. <br><br>
+							For the most part the coding ended up being pretty straight forward. As long as I kept the data structure in mind and made sure that it stayed intact with whatever calls I made to the database things moved along nicely. As the project moved
+							forward and we began to think about performance issues the queries grew more and more complex. Because we wanted the site to be fast from a user stand point it was important to limit the constant need for calls to the server. In the end, the project ended
+							be a lot of work but it was totally worth it.
+						</p>
+						<p>
+							<b>Result</b> The result here was far greater than any of us expected it to be. For such a small app this thing really packs in a ton of functionality including a fully custom CMS and an admin panel capable of managing a much larger site.
+						</p>
+						<p>
+							<b>Tech used:</b> NodeJS, MongoDB, AngularJS, ExpressJS, Angular, Github
+						</p>
+						<ul class="project-details-list">
+						<li><span class="dark-text">Date: </span> <span class="extra-small-text">June 22, 2016</span></li>
+						<!-- <li><span class="dark-text">Fields: </span> <span class="extra-small-text">Web Design, UI Design</span></li> -->
+						<!-- <li><span class="dark-text">Client: </span> <span class="extra-small-text">John Doe</span></li> -->
+						<li><span class="dark-text">URL: </span><a href="http://www.technation.top/"><span class="extra-small-text">http://www.technation.top/</span></a></li>
+					</ul>
+					</div>
+				</div>
+
+		</div>
+
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/scrollReveal.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/third-party-scripts.js"></script>
+	<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
